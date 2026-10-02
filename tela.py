@@ -23,7 +23,7 @@ except Exception as e:
 # 3. Carregamento de Imagem
 try:
     
-    fundo_original = pygame.image.load("image_9de040.jpg").convert()
+    fundo_original = pygame.image.load("academia.jpg").convert()
     fundo = pygame.transform.scale(fundo_original, (LARGURA, ALTURA))
 
     
